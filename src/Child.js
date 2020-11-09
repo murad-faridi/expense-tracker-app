@@ -5,6 +5,7 @@ function Child(){
         {amount: -40, desc: "Book"},
         {amount: -200, desc: "Camera"}
     ]
+    
     return (
         <div className="container">
             <h1 className="text-center">Expense Tracker</h1>
