@@ -9,7 +9,7 @@ function Child(){
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        if (amount == 0) {
+        if (amount === 0) {
             alert("Please enter correct value");
             return false;
         }
