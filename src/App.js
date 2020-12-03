@@ -1,11 +1,12 @@
 import './App.css';
-import Child from './Child'
+import Child from './Child';
+import {TransactionProvider} from './context/transContext';
 
 function App() {
     return (
-        <div>
+        <TransactionProvider>
             <Child />
-        </div>
+        </TransactionProvider>
     );
 }
 
